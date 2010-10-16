@@ -1,9 +1,9 @@
 %define upstream_name    autobox
-%define upstream_version 2.70
+%define upstream_version 2.71
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Call methods on native types
 License:    GPL+ or Artistic

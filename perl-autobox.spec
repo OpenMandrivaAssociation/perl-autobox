@@ -1,5 +1,5 @@
 %define upstream_name    autobox
-%define upstream_version 2.71
+%define upstream_version 2.72
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}

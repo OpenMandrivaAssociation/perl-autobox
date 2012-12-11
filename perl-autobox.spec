@@ -54,3 +54,40 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.730.0-2
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Mon Mar 14 2011 Guillaume Rousse <guillomovitch@mandriva.org> 2.730.0-1
++ Revision: 644730
+- update to new version 2.73
+
+* Sun Jan 30 2011 Guillaume Rousse <guillomovitch@mandriva.org> 2.720.0-1
++ Revision: 634205
+- update to new version 2.72
+
+* Sat Oct 16 2010 Sandro Cazzaniga <kharec@mandriva.org> 2.710.0-1mdv2011.0
++ Revision: 585983
+- new upstream version
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 2.700.0-2mdv2011.0
++ Revision: 555224
+- rebuild
+
+* Mon Mar 22 2010 Jérôme Quelin <jquelin@mandriva.org> 2.700.0-1mdv2010.1
++ Revision: 526461
+- update to 2.70
+
+* Fri May 29 2009 Jérôme Quelin <jquelin@mandriva.org> 2.550.0-1mdv2010.0
++ Revision: 380980
+- adding missing buildrequires
+- adding provides that gets filtered
+- import perl-autobox
+
+
+* Fri May 29 2009 cpan2dist 2.55-1mdv
+- initial mdv release, generated with cpan2dist
+

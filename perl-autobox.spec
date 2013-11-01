@@ -1,5 +1,5 @@
 %define upstream_name    autobox
-%define upstream_version 2.77
+%define upstream_version 2.79
 %define debug_package          %{nil}
 
 Name:       perl-%{upstream_name}
@@ -10,11 +10,10 @@ Summary:    Call methods on native types
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module//%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module//autobox-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Scope::Guard)
 BuildRequires: perl-devel
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 Provides: perl(autobox)
 
 %description
@@ -42,14 +41,11 @@ defined in a class whose name corresponds to the 'ref()' type of that value
 make test
 
 %install
-rm -rf %buildroot
 %makeinstall_std
 
 %clean
-rm -rf %buildroot
 
 %files
-%defattr(-,root,root)
 %doc README Changes
 %{_mandir}/man3/*
 %perl_vendorlib/*
@@ -91,4 +87,5 @@ rm -rf %buildroot
 
 * Fri May 29 2009 cpan2dist 2.55-1mdv
 - initial mdv release, generated with cpan2dist
+
 

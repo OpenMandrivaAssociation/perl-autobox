@@ -1,5 +1,5 @@
 %define upstream_name    autobox
-%define upstream_version 2.79
+%define upstream_version 2.82
 %define debug_package          %{nil}
 
 Name:       perl-%{upstream_name}
@@ -87,5 +87,6 @@ make test
 
 * Fri May 29 2009 cpan2dist 2.55-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 

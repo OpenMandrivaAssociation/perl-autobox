@@ -1,4 +1,5 @@
 removed_sources:
   autobox-2.77.tar.gz: 0e1f015884ee3c7829d7449ca4dd327f764f8da0
-sources:
   autobox-2.79.tar.gz: 626107a6f9ccffb9f88b81ea1c6804de4e82bddd
+sources:
+  autobox-2.82.tar.gz: 40143a4537c944f55f986de0736b6a96affa5aa8

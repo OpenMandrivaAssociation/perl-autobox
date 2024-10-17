@@ -9,7 +9,7 @@ Release:	3
 Summary:    Call methods on native types
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/%{upstream_name}
+Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module//autobox-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Scope::Guard)
